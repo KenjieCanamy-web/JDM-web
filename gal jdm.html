@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JDM Cars Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .gallery-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #eee;
+        }
+
+        .gallery-item h3 {
+            font-size: 1.5em;
+            margin: 15px 0;
+            color: #333;
+        }
+
+        .gallery-item p {
+            padding: 0 15px 15px;
+            font-size: 1em;
+            color: #666;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-10px);
+            transition: 0.3s ease-in-out;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>JDM Cars Gallery</h1>
+</header>
+
+<div class="gallery-container">
+    <div class="gallery-item">
+        <img src="C:\Users\kenji\.komodotools\supra-7k-001.jpg" alt="Toyota Supra">
+        <h3>Toyota Supra</h3>
+        <p>The iconic Japanese sports car known for its incredible power and tuning potential.</p>
+    </div>
+    
+    <div class="gallery-item">
+        <img src="C:\Users\kenji\.komodotools\OIP (2).jpg" alt="Mitsubishi Evo">
+        <h3>Mitsubishi Lancer Evolution</h3>
+        <p>A rally-bred performance car, famous for its handling and aggressive styling.</p>
+    </div>
+
+    <div class="gallery-item">
+        <img src="C:\Users\kenji\.komodotools\nissan_gtr_r35_passenger_front_3.jpeg" alt="Nissan GT-R">
+        <h3>Nissan GT-R</h3>
+        <p>Known as "Godzilla," the GT-R combines raw power with advanced technology.</p>
+    </div>
+
+    <div class="gallery-item">
+        <img src="C:\Users\kenji\.komodotools\OIP (1).jpg" alt="Honda NSX">
+        <h3>Honda NSX</h3>
+        <p>The NSX is a masterful blend of precision engineering and exotic styling.</p>
+    </div>
+
+    <div class="gallery-item">
+        <img src="C:\Users\kenji\.komodotools\02105c16715f8d3f951d79766825c90edc993789.webp" alt="Subaru Impreza">
+        <h3>Subaru Impreza WRX</h3>
+        <p>A fan favorite in the rally world, known for its all-wheel drive and turbocharged performance.</p>
+    </div>
+
+    <div class="gallery-item">
+        <img src="C:\Users\kenji\.komodotools\OIP.jpg" alt="Mazda RX-7">
+        <h3>Mazda RX-7</h3>
+        <p>Featuring a unique rotary engine, the RX-7 is a lightweight and agile sports car.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 JDM Car Gallery By Kenjie Canamy. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
